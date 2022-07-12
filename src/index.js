@@ -41,4 +41,8 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 
 console.log('project wired!')
 
-const header = document.querySelector("nav a");
+const header = document.querySelector("header");
+const nav = document.querySelector("nav");
+const ctaText = document.querySelector(".cta-text");
+const ctaTitle = document.querySelector("h1");
+ctaTitle.textContent = "DOM Is Awesome";
