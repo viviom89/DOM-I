@@ -46,3 +46,6 @@ const nav = document.querySelector("nav");
 const ctaText = document.querySelector(".cta-text");
 const ctaTitle = document.querySelector("h1");
 ctaTitle.textContent = "DOM Is Awesome";
+const ctaButton = document.querySelector("button");
+ctaButton.textContent = "Get Started";
+
