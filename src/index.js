@@ -60,3 +60,10 @@ ctaImg.src = siteContent.images["cta-img"];
 
 const midImg = document.querySelector("#middle-img");
 midImg.setAttribute('src', siteContent.images["accent-img"]);
+
+const footerLink = document.querySelector("footer a");
+footerLink.textContent = siteContent.footer.copyright;
+footerLink.classList.add("bold");
+
+const contact = document.querySelector("section.contact");
+contact.querySelector("h4").textContent = siteContent.contact["contact-h4"];
