@@ -43,9 +43,20 @@ console.log('project wired!')
 
 const header = document.querySelector("header");
 const nav = document.querySelector("nav");
+
 const ctaText = document.querySelector(".cta-text");
 const ctaTitle = document.querySelector("h1");
 ctaTitle.textContent = "DOM Is Awesome";
 const ctaButton = document.querySelector("button");
 ctaButton.textContent = "Get Started";
 
+const mainContent = document.querySelector(".main-content");
+
+const logoImg = document.querySelector("#logo-img");
+logoImg.src = siteContent.images["logo-img"];
+
+const ctaImg = document.querySelector("#cta-img");
+ctaImg.src = siteContent.images["cta-img"];
+
+const midImg = document.querySelector("#middle-img");
+midImg.setAttribute('src', siteContent.images["accent-img"]);
