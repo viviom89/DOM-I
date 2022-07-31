@@ -43,6 +43,17 @@ console.log('project wired!')
 
 const header = document.querySelector("header");
 const nav = document.querySelector("nav");
+const navLinks = document.querySelectorAll("header nav a");
+const navLinkTexts = Object.values(siteContent.nav);
+navLinks.forEach((link, idx) => {
+  link.textContent = navLinkTexts[idx]
+  link.classList.add("italic")
+  }
+)
+
+for (let link of document.querySelectorAll("header nav a")) {
+  console.log(link)
+};
 
 const ctaText = document.querySelector(".cta-text");
 const ctaTitle = document.querySelector("h1");
