@@ -52,6 +52,12 @@ ctaButton.textContent = "Get Started";
 
 const mainContent = document.querySelector(".main-content");
 
+const topContent = document.querySelector(".top-content");
+topContent.children[0].children[0].textContent = siteContent["main-content"]["features-h4"];
+topContent.children[0].children[1].textContent = siteContent["main-content"]["features-content"];
+topContent.children[1].children[0].textContent = siteContent["main-content"]["about-h4"];
+topContent.children[1].children[1].textContent = siteContent["main-content"]["about-content"];
+
 const logoImg = document.querySelector("#logo-img");
 logoImg.src = siteContent.images["logo-img"];
 
