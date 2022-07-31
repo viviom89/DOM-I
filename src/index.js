@@ -49,11 +49,7 @@ navLinks.forEach((link, idx) => {
   link.textContent = navLinkTexts[idx]
   link.classList.add("italic")
   }
-)
-
-for (let link of document.querySelectorAll("header nav a")) {
-  console.log(link)
-};
+);
 
 const ctaText = document.querySelector(".cta-text");
 const ctaTitle = document.querySelector("h1");
